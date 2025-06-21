@@ -1,6 +1,6 @@
 import img1 from '../assets/png/img1.jpg';
 import img2 from '../assets/png/img2.jpg';
-import img3 from '../assets/png/image-2.png';
+import img3 from '../assets/png/img3.jpg';
 import img4 from '../assets/png/img4.jpg';
 import img5 from '../assets/png/img5.jpg';
 import img6 from '../assets/png/img6.jpg';
@@ -15,7 +15,7 @@ export const achievementData = {
             details: '1st Place in Domain | Event conducted by C2C at SVCE',
             date: 'Dec 29, 2024',
             field: 'Event Participation',
-            image: img1
+            image: img2
         },
         {
             id: 2,
@@ -23,7 +23,7 @@ export const achievementData = {
             details: '1st Place | Organized by IEEE Student Branch, SVCE',
             date: 'Oct 17, 2024',
             field: 'Entrepreneurship',
-            image: img2
+            image: img1
         },
         {
             id: 3,

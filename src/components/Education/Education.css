@@ -176,3 +176,78 @@
 @media only screen and (device-width: 768px) {
 
 }
+.edu-group {
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.edu-group h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+}
+
+.edu-group-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.education-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 1.2rem;
+    height: auto;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.educard-img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.education-details h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.education-details h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.education-details h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .education-description > h1 {
+        font-size: 2.4rem;
+    }
+    .edu-group h3 {
+        font-size: 1.2rem;
+    }
+    .education-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .educard-img {
+        margin-bottom: 0.5rem;
+    }
+}

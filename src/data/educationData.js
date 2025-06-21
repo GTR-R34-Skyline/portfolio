@@ -1,36 +1,36 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Simplilearn Powered by Google Cloud',
-        course: 'Introduction to Digital Transformation with Google Cloud',
+        institution: 'Google Courses',
+        course: 'Introduction to Digital Transformation with Google Cloud by Simplilearn',
         startYear: 'October 2023',
         endYear: 'November 2023'
     },
     {
         id: 2,
-        institution: 'Coursera in collaboration with Google',
-        course: 'Project Management',
+        institution: 'Google Courses',
+        course: 'Project Management with Coursera',
         startYear: 'May 2024',
         endYear: 'July 2024'
     },
     {
         id: 3,
-        institution: 'Google Developers',
+        institution: 'Google Courses',
         course: 'Introduction to Generative AI and LLMs',
         startYear: 'June 2024',
         endYear: 'September 2024'
     },
     {
         id: 4,
-        institution: 'Coursera in collaboration with Google',
-        course: 'Introduction to Cybersecurity',
+        institution: 'Google Courses',
+        course: 'Introduction to Cybersecurity with Coursera',
         startYear: 'November 2023',
         endYear: 'May 2024'
     },
     {
         id: 5,
-        institution: 'Coursera + Google',
-        course: 'Google AI Essentials',
+        institution: 'Google Courses',
+        course: 'Google AI Essentials with Coursera',
         startYear: 'June 2024',
         endYear: 'July 2024'
     },
@@ -62,6 +62,20 @@ export const educationData = [
         startYear: 'August 2023',
         endYear: 'August 2023'
     },
+        {
+        id: 16,
+        institution: 'HackerRank',
+        course: 'Software Engineering Internship Preparation',
+        startYear: 'January 2025',
+        endYear: 'February 2025'
+    },
+        {
+        id: 17,
+        institution: 'HackerRank',
+        course: 'Python Programming Fundamentals GOLD',
+        startYear: 'September 2023',
+        endYear: 'January 2024'
+    },
     {
         id: 10,
         institution: 'Infosys Springboard',
@@ -71,15 +85,15 @@ export const educationData = [
     },
     {
         id: 11,
-        institution: 'NIELIT',
-        course: 'Data Science and Machine Learning',
+        institution: 'External Courses',
+        course: 'Data Science and Machine Learning with NIELIT',
         startYear: 'August 2023',
         endYear: 'September 2023'
     },
     {
         id: 12,
-        institution: 'NPTEL',
-        course: 'Blockchain and its application',
+        institution: 'External Courses',
+        course: 'Blockchain and its application with NPTEL',
         startYear: 'January 2025',
         endYear: 'April 2025'
     },
