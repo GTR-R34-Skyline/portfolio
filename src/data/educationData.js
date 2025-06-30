@@ -117,5 +117,19 @@ export const educationData = [
         course: 'Java I/O with Case Studies',
         startYear: '26th April 2025',
         endYear: '3rd May 2025'
+    },
+        {
+        id: 16,
+        institution: 'GeeksforGeeks',
+        course: 'Java I/O with Case Studies',
+        startYear: '18th June 2025',
+        endYear: '29th May 2025'
+    },
+        {
+        id: 17,
+        institution: 'GeeksforGeeks',
+        course: 'Full Stack Developer Bootcamp - Master Frontend to Backend',
+        startYear: '18th June 2025',
+        endYear: '29th May 2025'
     }
 ];
