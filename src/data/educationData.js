@@ -121,7 +121,7 @@ export const educationData = [
         {
         id: 16,
         institution: 'GeeksforGeeks',
-        course: 'Java I/O with Case Studies',
+        course: 'Python Programming',
         startYear: '18th June 2025',
         endYear: '29th May 2025'
     },
